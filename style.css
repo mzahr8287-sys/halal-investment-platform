@@ -1,0 +1,38 @@
+/* إعدادات الخطوط والاتجاه العام */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fcfcfc;
+    color: #333;
+}
+
+/* تنسيق قسم الواجهة الرئيسية */
+.hero-section {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e8f5e9 100%);
+    border-bottom: 1px solid #dee2e6;
+}
+
+/* تحسينات الكروت */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+}
+
+/* تنسيق أزرار الألوان المخصصة */
+.btn-success {
+    background-color: #2e7d32;
+    border-color: #2e7d32;
+}
+
+.btn-success:hover {
+    background-color: #1b5e20;
+    border-color: #1b5e20;
+}
+
+.text-success {
+    color: #2e7d32 !important;
+}

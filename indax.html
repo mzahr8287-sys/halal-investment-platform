@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>منصة الاستثمار الحلال التعليمية</title>
+    <!-- Bootstrap 5 RTL CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <!-- شريط التنقل -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">استثمار حلال</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#hero">الرئيسية</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#courses">الدروس التعليمية</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#consulting">الاستشارات</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#tools">أدوات التحليل</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- الواجهة الرئيسية -->
+    <header id="hero" class="bg-light py-5 text-center text-lg-start hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="display-4 fw-bold text-success mb-3">ابدأ رحلتك في الاستثمار الحلال</h1>
+                    <p class="lead text-muted">مقالات تعليمية، دروس فيديو قصيرة، واستشارات شخصية مصممة لمساعدتك على نمو ثروتك بذكاء وأمان توافقاً مع الشريعة.</p>
+                    <a href="#courses" class="btn btn-success btn-lg px-4 me-md-2">تصفح الدروس</a>
+                    <a href="#consulting" class="btn btn-outline-secondary btn-lg px-4">احجز استشارتك</a>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <img src="./amgs/images.jfif" class="img-fluid rounded shadow" alt="الاستثمار">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- قسم المقالات والفيديوهات -->
+    <section id="courses" class="py-5">
+        <div class="container">
+            <h2 class="text-center fw-bold mb-5">المحتوى التعليمي والدروس</h2>
+            <div class="row g-4">
+                <!-- كارت درس فيديو -->
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="position-relative">
+                            <img src="./amgs/2.jfif" class="card-img-top" alt="أساسيات الأسهم">
+                            <span class="badge bg-danger position-absolute top-0 end-0 m-3">فيديو قصير</span>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">مفهوم التطهير في الأسهم</h5>
+                            <p class="card-text text-muted">تعلم في 5 دقائق كيف تفحص الأسهم وتستبعد الأرباح غير المتوافقة.</p>
+                            <a href="#" class="btn btn-sm btn-success">شاهد الآن</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- كارت دليل خطوة بخطوة -->
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="position-relative">
+                            <img src="./amgs/4.jfif" class="card-img-top" alt="دليل الصكوك">
+                            <span class="badge bg-primary position-absolute top-0 end-0 m-3">دليل كامل</span>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">دليلك للاستثمار في الصكوك</h5>
+                            <p class="card-text text-muted">خطوات عملية واضحة للمبتدئين لبدء الاستثمار في الصكوك السيادية والتجارية.</p>
+                            <a href="#" class="btn btn-sm btn-success">اقرأ الدليل</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- كارت تحليل استثماري -->
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="position-relative">
+                            <img src="./amgs/3.jfif" class="card-img-top" alt="تحليل الأسواق">
+                            <span class="badge bg-warning text-dark position-absolute top-0 end-0 m-3">تحليل السوق</span>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">تحليل الصناديق المتداولة (ETFs)</h5>
+                            <p class="card-text text-muted">مراجعة شاملة لأداء الصناديق الإسلامية العالمية ومقارنة الرسوم بينها.</p>
+                            <a href="#" class="btn btn-sm btn-success">عرض التحليل</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم الاستشارات وتحليل المحفظة -->
+    <section id="consulting" class="py-5 bg-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h2 class="fw-bold mb-4">طلب استشارة شخصية أو تحليل محفظة</h2>
+                    <p class="text-muted">هل لديك محفظة أسهم وتريد التأكد من توافقها المالي والشرعي؟ احجز جلسة مخصصة مع خبرائنا لتحليل استثماراتك وتقديم تقرير شامل لحجم المخاطر والتطهير المطلوبة.</p>
+                </div>
+                <div class="col-md-6">
+                    <div class="card p-4 shadow-sm border-0">
+                        <form id="consultationForm">
+                            <div class="mb-3">
+                                <label class="form-label">الاسم الكامل</label>
+                                <input type="text" class="form-control" required id="userName">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">البريد الإلكتروني</label>
+                                <input type="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">نوع الخدمة المطلوبة</label>
+                                <select class="form-select">
+                                    <option>استشارة بناء محفظة جديدة</option>
+                                    <option>تطهير وتحليل محفظة قائمة</option>
+                                    <option>تحليل سهم محدد</option>
+                                </select>
+                            </div>
+                            <button type="submit" class="btn btn-success w-100">ارسال الطلب</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- الفوتر -->
+    <footer class="bg-dark text-white py-4 text-center">
+        <p class="mb-0">جميع الحقوق محفوظة © منصة الاستثمار الحلال 2026</p>
+    </footer>
+
+    <!-- Bootstrap 5 JavaScript Bundle -->
+    <script src="./js/bootstrap.js"></script>
+    <!-- Custom JS -->
+    <script src="./script.js"></script>
+</body>
+</html>
